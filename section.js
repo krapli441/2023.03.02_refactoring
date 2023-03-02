@@ -22,6 +22,7 @@ rightSection.style.border = "1px solid blue";
 const leftSectionTag = leftSection.children[0];
 const rightSectionTag = rightSection.children[0];
 
+
 for (let i = 0; i < leftSectionTag.children.length; i++) {
   leftSectionTag.children[i].style.width = "100%";
   leftSectionTag.children[i].style.height = "50px";

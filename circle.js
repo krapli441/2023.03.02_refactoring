@@ -11,3 +11,7 @@ circle.style.transform = "translate(-50%, 0)";
 circle.style.display = "flex";
 circle.style.justifyContent = "center";
 circle.style.alignItems = "center"
+
+circle.addEventListener("click", function() {
+  circle.style.left = "10vw";
+})
