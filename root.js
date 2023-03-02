@@ -18,3 +18,11 @@ main.style.alignItems = "center";
 
 // display = flex, justifycontent = center, alignitems = center
 // css 태그가 많이 중복되었는데 이를 해결할 수 있는 방법이 있을까
+
+let stylized = ["display", "justify-content", "align-items"];
+let stylizedKey = ["flex", "center", "center"];
+
+let obj = {};
+for (let i = 0; i < stylized.length; i++) {
+  obj[stylized[i]] = stylizedKey[i];
+}
